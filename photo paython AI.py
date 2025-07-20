@@ -1,5 +1,5 @@
 import cv2 
-img = cv2.imread('img/cat.jpg',100)
+img = cv2.imread('img/cat.jpg',100,0)
 imge=cv2.resize(img,(900,900))
 pixels=imge.size
 shap=imge.shape
